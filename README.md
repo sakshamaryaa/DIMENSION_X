@@ -17,7 +17,7 @@
 ---
 
 ## ◈ The idea
-
+dimensionx-livid.vercel.app
 **DIMENSION X** turns abstract scientific concepts into interactive digital experiences.
 
 It brings together mathematical tools, physics simulations, graph visualizations, and experimentation environments in one place. The goal is simple: move beyond memorizing equations and make it possible to **see a concept, change its variables, and explore the result**.
