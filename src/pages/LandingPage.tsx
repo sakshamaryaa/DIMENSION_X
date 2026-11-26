@@ -109,6 +109,11 @@ export const LandingPage: React.FC = () => {
                   EXPLORE THE UNIVERSE <ArrowRight className="h-4 w-4" />
                 </Button>
               </Link>
+              <Link to="/secret">
+                <Button size="lg" className="font-display tracking-wider" variant="secondary">
+                  UNLOCK SECRET <ArrowRight className="h-4 w-4" />
+                </Button>
+              </Link>
               <a href="#about-dimension-x">
                 <Button variant="secondary" size="lg">
                   DISCOVER THE PROJECT
