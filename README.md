@@ -33,6 +33,8 @@ DIMENSION X is a premium interactive scientific universe that brings together ma
 
 ## 🚀 Getting Started
 
+🔗 Live demo: https://dimension-x-zeta.vercel.app/
+
 ```bash
 # Clone the repository (once we have a remote URL)
 git clone <repo-url>
