@@ -1,0 +1,43 @@
+{
+  "name": "dimension-x",
+  "private": true,
+  "version": "1.0.0",
+  "description": "DIMENSION X — The AI-Powered Mathematical & Scientific Universe by Saksham Arya aka Mr. Vortex",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "framer-motion": "^12.0.0",
+    "gsap": "^3.12.7",
+    "katex": "^0.16.21",
+    "lucide-react": "^0.475.0",
+    "mathjs": "^14.2.0",
+    "plotly.js-dist-min": "^3.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.2.0",
+    "three": "^0.174.0"
+  },
+  "devDependencies": {
+    "@types/katex": "^0.16.7",
+    "@types/node": "^26.6.10",
+    "@types/plotly.js": "^2.35.5",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@types/three": "^0.174.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~5.7.2",
+    "vite": "^6.1.1",
+    "vitest": "^3.0.7"
+  }
+}

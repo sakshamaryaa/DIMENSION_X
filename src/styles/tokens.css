@@ -1,0 +1,33 @@
+:root {
+  /* Core Palette */
+  --dx-void: #080D18;
+  --dx-navy: #101B2D;
+  --dx-navy-elevated: #142238;
+  --dx-cyan: #00D9FF;
+  --dx-violet: #7565FF;
+  --dx-ice: #EAF4FF;
+  --dx-muted: #91A3BA;
+
+  /* Semantic Borders & Surfaces */
+  --dx-surface-glass: rgba(16, 27, 45, 0.72);
+  --dx-surface-card: rgba(16, 27, 45, 0.86);
+  --dx-border-subtle: rgba(145, 163, 186, 0.16);
+  --dx-border-cyan: rgba(0, 217, 255, 0.35);
+  --dx-border-violet: rgba(117, 101, 255, 0.35);
+
+  /* Glows & Shadows */
+  --dx-glow-cyan: 0 0 28px rgba(0, 217, 255, 0.22);
+  --dx-glow-violet: 0 0 28px rgba(117, 101, 255, 0.24);
+  --dx-shadow-panel: 0 12px 40px rgba(0, 0, 0, 0.5);
+
+  /* Spacing & Radii */
+  --dx-radius-sm: 0.5rem;
+  --dx-radius-md: 0.875rem;
+  --dx-radius-lg: 1.25rem;
+
+  /* Motion Timing */
+  --dx-ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --dx-duration-fast: 160ms;
+  --dx-duration-base: 280ms;
+  --dx-duration-slow: 520ms;
+}
