@@ -10,6 +10,10 @@ const IntroPage = lazy(() =>
 const LandingPage = lazy(() =>
   import('@/pages/LandingPage').then((m) => ({ default: m.LandingPage }))
 );
+const SecretPage = lazy(() =>
+  import('@/pages/SecretPage').then(m => ({ default: m.SecretPage }))
+);
+
 const CommandCentrePage = lazy(() =>
   import('@/pages/CommandCentrePage').then((m) => ({ default: m.CommandCentrePage }))
 );
@@ -82,6 +86,7 @@ export function App() {
               <Route path="/about" element={<AboutPage />} />
 
               {/* Catch-all */}
+              <Route path="/secret" element={<SecretPage />} />
               <Route path="*" element={<Navigate to="/home" replace />} />
             </Routes>
           </Suspense>

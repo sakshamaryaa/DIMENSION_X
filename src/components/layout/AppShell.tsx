@@ -32,6 +32,7 @@ const NAV_ITEMS = [
   { label: 'Experimentation', to: '/experimentation', icon: FlaskConical },
   { label: 'Discovery', to: '/discovery', icon: Compass },
   { label: 'Workspace', to: '/workspace', icon: FolderKanban },
+  { label: 'Secret', to: '/secret', icon: X },
   { label: 'About', to: '/about', icon: Sparkles },
 ];
 
